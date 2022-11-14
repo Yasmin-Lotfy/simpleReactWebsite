@@ -1,0 +1,31 @@
+.main-cont{
+    background-color: rgb(26,188,156);
+}
+.main-head{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.main-star{
+    padding: 1.5rem 0;
+    font-size: 2rem;
+}
+.left-line, .right-line{
+    background-color: #fff;
+    width: 30%;
+    height: 4px;
+    margin: 0 10px;
+}
+
+
+.caption p {
+    font-size: 1.3rem;
+}
+@media screen and (max-width:992px) {
+    .main-head{
+        font-size: 2rem;
+    }
+    .caption p {
+        font-size: 1rem;
+    }
+    
+}
